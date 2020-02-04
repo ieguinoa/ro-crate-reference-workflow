@@ -45,7 +45,7 @@
     "actionStatus":  { "@id": "http://schema.org/CompletedActionStatus" }
   },
   {
-    "@id": "https://usegalaxy.be"",    
+    "@id": "https://usegalaxy.be",    
     "@type": "SoftwareApplication",
     "name": "****Galaxy server name?",
     "url": "http://usegalaxy.be",
