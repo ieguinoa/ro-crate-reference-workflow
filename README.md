@@ -1,7 +1,7 @@
 # ro-crate-reference-workflow
 Creating a RO-Crate package containing a reference workflow
 
-This repo summarizes several steps required to construct an RO-Create packaging a reference workflow and it's metadata. The expected results can be visualized in an example under example/galaxy_workflow which contains the files representing a workflow designed in Galaxy. 
+This repo summarizes several steps required to construct an RO-Create packaging a reference workflow and it's metadata. The expected results can be visualized in an example under example/galaxy_workflow which contains the files representing a workflow designed in Galaxy. This example is being "reviewed" at https://github.com/ResearchObject/ro-crate/issues/66
 
 ## Current progress made:
  - CWL abstract is being formally defined in CWL (https://github.com/common-workflow-language/cwl-v1.2/pull/3)
