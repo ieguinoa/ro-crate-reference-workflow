@@ -12,7 +12,7 @@ This repo summarizes several steps required to construct an RO-Create packaging 
  - Add DataCite attributes to the root metadata file. Current version of the specification does not define the way to include sufficient metadata to generate a DataCite citation (see https://researchobject.github.io/ro-crate/1.0/#direct-properties-of-the-root-data-entity).
  - Automatize the creation of the metadata files (ro-crate-metadata.jsonld,...)
  - RO-Crate package SHOULD contain a human readable file describing what is contained in it. Ideally it would be a HTML page with a description and, in this particular case, an image describing the workflow. The options (not exclusive) are:
-    - obtaining the graphic from cwltool (https://github.com/common-workflow-language/cwltool/tree/abstract-operation#visualizing-a-cwl-document) 
-    - obtaining the graphic from Galaxy itself. This would involve implementing the download as it is not readily available.
+    - obtaining the graphic from cwltool (https://github.com/common-workflow-language/cwltool/tree/abstract-operation#visualizing-a-cwl-document) . This requires that the Operation class definition is merged. 
+    - obtaining the graphic from Galaxy itself. This would require implementing the download as it is not readily available.
 
  - Extend the creation of CWL-abstract from other WMS and workflow definition formats.  
