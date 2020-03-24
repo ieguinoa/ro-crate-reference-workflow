@@ -6,7 +6,8 @@ This repo summarizes several steps required to construct an RO-Create packaging 
 ## Current progress made:
  - CWL abstract is being formally defined in CWL (https://github.com/common-workflow-language/cwl-v1.2/pull/3)
  - A standalone tool was created to convert Galaxy workflow files (format 1 or 2) to CWL abstract (https://github.com/ieguinoa/cwl-from-galaxy). 
- - WIP to directly download the CWL abstract version of a workflow from Galaxy (https://github.com/ieguinoa/galaxy/tree/wf-export-cwl-abstract).
+ - WIP to directly download the CWL abstract version of a workflow from Galaxy (https://github.com/ieguinoa/galaxy/tree/wf-export-cwl-abstract). This branch is already accessible from a test public instance at test.usegalaxy.be[https://test.usegalaxy.be]. The URL to generate the CWL abstract of a workflow can be built like:
+ https://test.usegalaxy.be/api/workflows/workflow_id/download?style=cwl_abstract  replacing workflow_id with the real id of the workflow.
  
 ## TODO:
  - Add DataCite attributes to the root metadata file. Current version of the specification does not define the way to include sufficient metadata to generate a DataCite citation (see https://researchobject.github.io/ro-crate/1.0/#direct-properties-of-the-root-data-entity).
